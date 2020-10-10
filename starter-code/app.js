@@ -188,4 +188,8 @@ console.log(joe.scopeArrow());
 // 2. What is "this" when joe.scopeArrow() is invoked?
 //this is undefine
 // 3. Explain why "this" is different when an arrow function is used.
-//  because arrow functions retain the this value of the enclosing functional scope. Therefore, you will want to avoid using an arrow function in a constructor (where we need the contextual this to be the object we are building) or any method that needs to use this to behave properly.
+//  because arrow functions retain the this value of the enclosing functional scope.
+// Therefore, you will want to avoid using an arrow function in a constructor 
+//(where we need the contextual this to be the object we are building) or any method that needs to use this to behave properly.:)
+
+
